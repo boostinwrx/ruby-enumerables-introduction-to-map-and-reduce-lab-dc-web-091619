@@ -50,4 +50,4 @@ p total
 end 
 
 
-reduce_to_all_true
+def 
