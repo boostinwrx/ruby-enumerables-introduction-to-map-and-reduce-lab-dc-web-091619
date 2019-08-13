@@ -9,3 +9,4 @@ def map_to_negativize(source_array)
   end
 p new_array
 end
+map_to_negativize(source_array)
