@@ -40,8 +40,8 @@ return new_array
 end 
 def reduce_to_total(source_array, starting_point)
   counter = 0
-  new_array = [ ]
+  reduced = 0
   while counter < source_array.length do
-    source_array[counter]
+    source_array[counter].to_s ++
     counter += 1
   end
