@@ -43,6 +43,6 @@ def reduce_to_total(source_array, starting_point)
   counter = 0
   starting_point 
   while counter < source_array.length do
-    source_array.unshift
+    source_array.slice
   end
 puts starting_point
