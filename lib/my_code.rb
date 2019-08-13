@@ -43,12 +43,11 @@ def reduce_to_total(source_array, starting_point) #doesnotwork
    counter = 0
   starting_point = total
   while counter < source_array.length do
-total = source_array.slice(counter) + total
-    counter += 1
+total = source_array[counter] + total
   end
 p total
 end 
 
 
 def reduce_to_all_true(source_array)
-  source_array.ea
+  source_array.
