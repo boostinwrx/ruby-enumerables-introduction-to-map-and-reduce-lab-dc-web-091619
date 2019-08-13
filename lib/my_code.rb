@@ -46,5 +46,5 @@ def reduce_to_total(source_array, starting_point)
 total = source_array.slice(counter) + total
     counter += 1
   end
-return total
+p total
 end 
